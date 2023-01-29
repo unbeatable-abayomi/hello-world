@@ -12,7 +12,7 @@ jobs:
       - run: echo hello
   print_world:
     docker:
-      - image: ircleci/node:13.8.0
+      - image: circleci/node:13.8.0
     steps:
       - run: echo world
   say-hello:
